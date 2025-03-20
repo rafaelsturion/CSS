@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    /* A propriedade box-sizing está definida como border-box, o que significa que a largura e a altura do elemento 
+       incluem o padding e a borda. Isso facilita o dimensionamento consistente dos elementos. */
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    background-color: #121212;
+    width: 700px;
+    color: #fff;
+    margin: auto; 
+    padding: 50px;
+    border:10px solid red;
+    border-radius: 10px;
+    
+}
+
+.rede-social h2 {
+    text-align: center;
+}
+
+.rede-social ul {
+    padding: 0;
+    list-style: none; /* Remove os marcadores padrão (como bolinhas ou números) de listas */
+    text-align: center;
+}
+
+.rede-social li{
+    margin-bottom: 15px;
+}
+
+.rede-social a{
+    text-decoration: none;   
+    color:#000;
+}
+
+.rede-social a:hover{
+    color:red;
+    /* Hover é quando se passa o mouse por cima de um link. */
+}

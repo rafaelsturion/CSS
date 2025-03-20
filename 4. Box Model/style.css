@@ -1,0 +1,27 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    background-color: #121212;
+    width: 700px;
+    color: #fff;
+    margin: 50px; 
+    /* Margin é p espaçamento externo; Auto: centraliza o container. Aplicar um unico valor, ele insere margin igual para todos os lados 
+    /* margin-top: 20px;  Modifica somente a margem superior 
+    margin-right: 15px;  Modifica somente a margem direita 
+    margin-bottom: 25px;  Modifica somente a margem inferior
+    margin-left: 10px; Modifica somente a margem esquerda */
+
+    padding: 30px;
+    /* Padding é o espaçamento interno 
+    padding-top: ;
+    padding-right: ; 
+    padding-bottom: ;  
+    padding-left: ;  */
+
+    border:10px solid red;
+    /* Fica ao redor do container */
+    border-radius: 10px;
+    /* Arredonda a borda do elemento */
+}

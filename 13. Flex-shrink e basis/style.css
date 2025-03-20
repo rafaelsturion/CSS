@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin : 0;
+    padding: 0;
+    outline: 0;
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 180vh;
+    
+}
+
+.container{
+    background-color: #121212;
+    height: 500px;
+    margin: 50px;
+    display: flex; /* Ativandp flexbox */
+    flex-direction: row;
+}
+
+.area{
+    width:100px;
+    height:100px;
+    flex-basis: 400px; /* Tamanho base do item */
+    flex-grow: 1;
+}
+
+.item-1{
+    background-color: red;
+    flex-shrink: 1;
+}
+
+.item-2 {
+    background-color: blue;
+    flex-shrink: 1;
+}
+
+.item-3{
+    background-color: darkgreen;
+    flex-shrink: 2; /* O item 3 vai encolher o dobro do item 1 e 2, só percebe ao ficar menor que o Basis */
+}

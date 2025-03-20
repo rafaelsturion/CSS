@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 180vh;
+    /* 
+        Este trecho de CSS define a altura de um elemento como 180% da altura do viewport (vh).
+        A unidade "vh" representa 1% da altura da janela visível do navegador, então 180vh significa
+        que a altura do elemento será 1,8 vezes a altura da janela visível. Isso é frequentemente usado
+        para criar seções roláveis ou para garantir que um elemento se estenda além da altura inicial do viewport.
+    */
+}
+
+.container{
+    background-color: #121212;
+    width: 700px;
+    color: #fff;
+    margin: auto; 
+    padding: 50px;
+    border:10px solid red;
+    border-radius: 10px;
+    
+}
+
+/* 
+    > Por padrão: temos o Static, ou seja, o estático
+    > Relative: permite que você mova o elemento em relação a sua posição original (top, bottom, left, right)
+    > Absolute é posicionado em relação ao elemento pai mais próximo, se não estiver relativce, será posicionado em relação ao body
+    >Fixed: é posicionado em relação a janela do navegador (viewport), ou seja, ele não se move quando a página é rolada
+*/
+
+.area{
+    width: 200px;
+    height: 80px;
+    background-color: greenyellow;
+    position: fixed;
+    top: 50px;
+    right: 80px;
+}
+
