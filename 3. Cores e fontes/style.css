@@ -1,0 +1,7 @@
+.primeiro-h1{
+    /* color:red; */
+    color: #0d7836;
+    /* color: rgb(0,0,255, green, blue); */
+    /* color: rgba(0,0,255,0.5 green, blue, alpha); */
+    font-family: 'Roboto', sans-serif;
+}
